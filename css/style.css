@@ -7,4 +7,12 @@
   color: white;
   text-decoration: none;
   border-radius: 8px;
+  transition: 0.3s linear;
+}
+
+.button-sp:hover {
+  transform: scale(1.055);
+}
+body a:visited {
+  color: white;
 }
