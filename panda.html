@@ -25,7 +25,7 @@
       <nav class="navbar navbar-light navbar-expand-sm bg-light py-3 mb-4 fixed-top mb-5">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img
+            <img 
               src="images/logo.png"
               alt=""
               class="d-inline-block align-text-top img-fluid"
@@ -94,7 +94,7 @@
                         </p>
                         <p class="fs-3 fw-bold">$839</p>
 
-                        <a class="button-sp py-2 px-3" href="#">Buy Now</a>
+                        <a class="button-sp  btn-dlt py-2 px-3" href="#">Buy Now</a>
                       </div>
                     </div>
                     <div
@@ -124,7 +124,7 @@
                         </p>
                         <p class="fs-3 fw-bold">$339</p>
 
-                        <a class="button-sp py-2 px-3" href="#">Buy Now</a>
+                        <a class="button-sp  py-2 px-3" href="#">Buy Now</a>
                       </div>
                     </div>
                     <div
@@ -154,7 +154,7 @@
                         </p>
                         <p class="fs-3 fw-bold">$139</p>
 
-                        <a class="button-sp py-2 px-3" href="#">Buy Now</a>
+                        <a class="button-sp  py-2 px-3" href="#">Buy Now</a>
                       </div>
                     </div>
                     <div
@@ -244,6 +244,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="card border-0 shadow rounded-5">
                 <img
+                  id="image"
                   src="images/shoes/shoe-2.png"
                   class="card-img-top"
                   alt="..."
@@ -257,7 +258,7 @@
                   </p>
 
                   <h4 class="fw-bold">$ 120</h4>
-                  <a href="#" class="button-sp py-2 px-3 my-2 d-inline-block"
+                  <a href="#" class="button-sp btn-dlt py-2 px-3 my-2 d-inline-block"
                     >Buy Now > ></a
                   >
                 </div>
@@ -279,7 +280,7 @@
                   </p>
 
                   <h4 class="fw-bold">$ 320</h4>
-                  <a href="#" class="button-sp py-2 px-3 my-2 d-inline-block"
+                  <a href="#" class="button-sp btn-dlt py-2 px-3 my-2 d-inline-block"
                     >Buy Now > ></a
                   >
                 </div>
@@ -301,7 +302,7 @@
                   </p>
 
                   <h4 class="fw-bold">$ 240</h4>
-                  <a href="#" class="button-sp py-2 px-3 my-2 d-inline-block"
+                  <a href="#" class="button-sp btn-dlt py-2 px-3 my-2 d-inline-block"
                     >Buy Now > ></a
                   >
                 </div>
@@ -325,7 +326,7 @@
 
                  
                 </div>
-                <div class="card-footer bg-white border-0"> <a href="#" class="button-sp py-2 px-3 my-2 d-inline-block"
+                <div class="card-footer bg-white border-0"> <a href="#" class="button-sp btn-dlt py-2 px-3 my-2 d-inline-block"
                   >Buy Now > ></a
                 ></div>
               </div>
@@ -339,7 +340,7 @@
 
                  
                 </div>
-                <div class="card-footer bg-white border-0"> <a href="#" class="button-sp py-2 px-3 my-2 d-inline-block"
+                <div class="card-footer bg-white border-0"> <a href="#" class="button-sp btn-dlt py-2 px-3 my-2 d-inline-block"
                   >Buy Now > ></a
                 ></div>
               </div>
@@ -353,7 +354,7 @@
 
                   
                 </div>
-                <div class="card-footer bg-white border-0"> <a href="#" class="button-sp py-2 px-3 my-2 d-inline-block"
+                <div class="card-footer bg-white border-0"> <a href="#" class="button-sp btn-dlt py-2 px-3 my-2 d-inline-block"
                   >Buy Now > ></a
                 ></div>
               </div>
@@ -363,16 +364,16 @@
       </section>
 
       <section id="subscribe">
-        <div class="container carousel-site text-center py-5 my-5">
+        <div id="dblclick" class="container carousel-site text-center py-5 my-5">
           <h1 class=" fw-bold">Let's Stay In touch</h1>
           <p class="fs-5 text-muted">
           Get Updates On sales, Specials and more
         </p>
         <div>
-          <form class="d-flex justify-content-center align-items-center">
-            <input class=" me-2 form-control w-auto" type="search" placeholder="Search" aria-label="Search">
-            <button class="button-sp border-0 py-2 px-3" type="submit">Submit</button>
-          </form>
+          <div class="d-flex justify-content-center align-items-center">
+            <input id="email-input" class=" me-2 form-control w-auto" type="text" placeholder="Your email" >
+            <button id="submit-btn" class="btn-danger border-0 py-2 px-3" disabled>Submit</button>
+          </div>
         </div>
         </div>
       </section>
@@ -387,5 +388,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- main js file -->
+    <script src="app.js"></script>
   </body>
 </html>
